@@ -1,0 +1,390 @@
+🎯 STALKER UNITY PROJECT STRUCTURE
+Generated: 30.11.2025 19:18:02
+======================================
+
+📁 Assets/
+  📁 Addressables/
+  📁 Data/
+    📁 Dialogues/
+    📁 Items/
+      💾 Item_Antirad.asset (сегодня)
+      💾 Item_Bandage.asset (сегодня)
+      💾 Item_Medkit.asset (сегодня)
+      📁 ItemData/
+        📄 ItemData.cs (2KB, сегодня)
+        📄 ItemInteraction.cs (1KB, сегодня)
+        📄 ItemTypeData.cs (сегодня)
+    📁 Quests/
+  📁 Editor/
+    📄 ProjectStructureExporter.cs (7KB, сегодня)
+  📁 Imported/
+    📁 Characters/
+      📁 Player/
+        📁 Models/
+          📁 Hands/
+    📁 Icons/
+    📁 Models/
+      📁 Locations/
+        📁 jupiter/
+          📁 jupiter.fbm/
+        📁 jupiter_underground/
+        📁 k00_marsh/
+          📁 k00_marsh.fbm/
+        📁 k01_darkscape/
+          📁 k01_darkscape.fbm/
+        📁 k02_trucks_cemetery/
+          📁 k02_trucks_cemetery.fbm/
+        📁 l01_escape/
+          📁 level.fbm/
+        📁 l02_garbage/
+          📁 l02_garbage.fbm/
+        📁 l03u_agr_underground/
+        📁 l03_agroprom/
+          📁 l03_agroprom.fbm/
+        📁 l04u_labx18/
+        📁 l04_darkvalley/
+          📁 l04_darkvalley.fbm/
+        📁 l05_bar/
+          📁 l05_bar.fbm/
+        📁 l06_rostok/
+          📁 l06_rostok.fbm/
+        📁 l07_military/
+          📁 l07_military.fbm/
+        📁 l08_yantar/
+          📁 l08_yantar.fbm/
+        📁 l09_deadcity/
+          📁 l09_deadcity.fbm/
+        📁 l10u_bunker/
+        📁 l10_limansk/
+          📁 l10_limansk.fbm/
+        📁 l10_radar/
+          📁 l10_radar.fbm/
+        📁 l10_red_forest/
+          📁 l10_red_forest.fbm/
+        📁 l11_hospital/
+          📁 l11_hospital.fbm/
+        📁 l11_pripyat/
+          📁 l11_pripyat.fbm/
+        📁 l12u_control_monolith/
+        📁 l12u_sarcofag/
+        📁 l12_stancia/
+          📁 l12_stancia.fbm/
+        📁 l12_stancia_2/
+          📁 l12_stancia_2.fbm/
+        📁 l13u_warlab/
+        📁 l13_generators/
+          📁 l13_generators.fbm/
+        📁 labx8/
+        📁 pripyat/
+          📁 pripyat.fbm/
+        📁 y04_pole/
+          📁 y04_pole.fbm/
+        📁 zaton/
+          📁 zaton.fbm/
+      📁 meshes/
+      📁 Weapons/
+    📁 Sounds/
+    📁 Textures/
+  📁 Materials/
+  📁 Optimization/
+  📁 Prefabs/
+    📁 Characters/
+      📁 Player/
+        📁 Hands/
+          🎭 wpn_hand_army_nosorog_outfit.prefab (2KB)
+          🎭 wpn_hand_bandit_exo.prefab (2KB)
+          🎭 wpn_hand_bandit_exolight.prefab (2KB)
+          🎭 wpn_hand_bandit_merc.prefab (2KB)
+          🎭 wpn_hand_bandit_military.prefab (2KB)
+          🎭 wpn_hand_bandit_nbc_suit.prefab (2KB)
+          🎭 wpn_hand_bandit_novice.prefab (2KB)
+          🎭 wpn_hand_bandit_novice_alt.prefab (2KB)
+          🎭 wpn_hand_bandit_ps5.prefab (2KB)
+          🎭 wpn_hand_bandit_skat9.prefab (2KB)
+          🎭 wpn_hand_bandit_trench.prefab (2KB)
+          🎭 wpn_hand_black_seva.prefab (2KB)
+          🎭 wpn_hand_cs1.prefab (2KB)
+          🎭 wpn_hand_cs2.prefab (2KB)
+          🎭 wpn_hand_cs3a.prefab (2KB)
+          🎭 wpn_hand_cs3b.prefab (2KB)
+          🎭 wpn_hand_csky_seva.prefab (2KB)
+          🎭 wpn_hand_cs_exo.prefab (2KB)
+          🎭 wpn_hand_cs_exolight.prefab (2KB)
+          🎭 wpn_hand_cs_nbc_suit.prefab (2KB)
+          🎭 wpn_hand_cs_novice.prefab (2KB)
+          🎭 wpn_hand_cs_proto.prefab (2KB)
+          🎭 wpn_hand_cs_skat9.prefab (2KB)
+          🎭 wpn_hand_cs_stalker_outfit.prefab (2KB)
+          🎭 wpn_hand_dolg_exo.prefab (2KB)
+          🎭 wpn_hand_dolg_exolight.prefab (2KB)
+          🎭 wpn_hand_dolg_heavy_proto_exo.prefab (2KB)
+          🎭 wpn_hand_dolg_nosorog.prefab (2KB)
+          🎭 wpn_hand_dolg_nosorog_light_outfit.prefab (2KB)
+          🎭 wpn_hand_dolg_trench_suit.prefab (2KB)
+          🎭 wpn_hand_duty_berill_suit.prefab (2KB)
+          🎭 wpn_hand_duty_exolight.prefab (2KB)
+          🎭 wpn_hand_duty_metro.prefab (2KB)
+          🎭 wpn_hand_duty_novice.prefab (2KB)
+          🎭 wpn_hand_duty_proto.prefab (2KB)
+          🎭 wpn_hand_duty_ps5m.prefab (2KB)
+          🎭 wpn_hand_duty_ps5m_short.prefab (2KB)
+          🎭 wpn_hand_duty_seva.prefab (2KB)
+          🎭 wpn_hand_ecologist_blue.prefab (2KB)
+          🎭 wpn_hand_ecologist_guard.prefab (2KB)
+          🎭 wpn_hand_ecologist_red.prefab (2KB)
+          🎭 wpn_hand_ecologist_ssp99.prefab (2KB)
+          🎭 wpn_hand_ecologist_ssp99m.prefab (2KB)
+          🎭 wpn_hand_ecologist_white.prefab (2KB)
+          🎭 wpn_hand_ecologist_yello.prefab (2KB)
+          🎭 wpn_hand_ecolog_proto.prefab (2KB)
+          🎭 wpn_hand_exo.prefab (2KB)
+          🎭 wpn_hand_exolight.prefab (2KB)
+          🎭 wpn_hand_exo_ecolog.prefab (2KB)
+          🎭 wpn_hand_exo_wood_outfit.prefab (2KB)
+          🎭 wpn_hand_freedom_exo.prefab (2KB)
+          🎭 wpn_hand_freedom_exolight.prefab (2KB)
+          🎭 wpn_hand_freedom_guard.prefab (2KB)
+          🎭 wpn_hand_freedom_guardian.prefab (2KB)
+          🎭 wpn_hand_freedom_nosorog.prefab (2KB)
+          🎭 wpn_hand_freedom_novice.prefab (2KB)
+          🎭 wpn_hand_freedom_proto.prefab (2KB)
+          🎭 wpn_hand_freedom_ps5m_short.prefab (2KB)
+          🎭 wpn_hand_freedom_seva.prefab (2KB)
+          🎭 wpn_hand_freedom_skat9.prefab (2KB)
+          🎭 wpn_hand_freedom_trench.prefab (2KB)
+          🎭 wpn_hand_freedom_wind.prefab (2KB)
+          🎭 wpn_hand_greh_exo_outfit.prefab (2KB)
+          🎭 wpn_hand_greh_lcs_outfit.prefab (2KB)
+          🎭 wpn_hand_greh_sunrise_outfit.prefab (2KB)
+          🎭 wpn_hand_greh_trenchcoat_outfit.prefab (2KB)
+          🎭 wpn_hand_isg_exolight_outfit.prefab (2KB)
+          🎭 wpn_hand_isg_exo_outfit.prefab (2KB)
+          🎭 wpn_hand_isg_lcs_suit.prefab (2KB)
+          🎭 wpn_hand_isg_light_suit.prefab (2KB)
+          🎭 wpn_hand_isg_nosorog_outfit.prefab (2KB)
+          🎭 wpn_hand_isg_seva_suit.prefab (2KB)
+          🎭 wpn_hand_isg_suit.prefab (2KB)
+          🎭 wpn_hand_loner_metro.prefab (2KB)
+          🎭 wpn_hand_loner_nbc_suit.prefab (2KB)
+          🎭 wpn_hand_loner_novice.prefab (2KB)
+          🎭 wpn_hand_loner_novice_redline.prefab (2KB)
+          🎭 wpn_hand_loner_novice_tourist.prefab (2KB)
+          🎭 wpn_hand_loner_novice_white.prefab (2KB)
+          🎭 wpn_hand_loner_proto.prefab (2KB)
+          🎭 wpn_hand_loner_seva.prefab (2KB)
+          🎭 wpn_hand_loner_sunrise.prefab (2KB)
+          🎭 wpn_hand_loner_sunrise_autumn.prefab (2KB)
+          🎭 wpn_hand_loner_sunrise_drought.prefab (2KB)
+          🎭 wpn_hand_loner_sunrise_graphite.prefab (2KB)
+          🎭 wpn_hand_loner_sunrise_predator.prefab (2KB)
+          🎭 wpn_hand_loner_sunrise_salamander.prefab (2KB)
+          🎭 wpn_hand_loner_sunrise_tigerstripe.prefab (2KB)
+          🎭 wpn_hand_loner_sunrise_wolven.prefab (2KB)
+          🎭 wpn_hand_merc_bluecamo_outfit.prefab (2KB)
+          🎭 wpn_hand_merc_east_outfit.prefab (2KB)
+          🎭 wpn_hand_merc_exo.prefab (2KB)
+          🎭 wpn_hand_merc_exolight.prefab (2KB)
+          🎭 wpn_hand_merc_military.prefab (2KB)
+          🎭 wpn_hand_merc_nosorog_outfit.prefab (2KB)
+          🎭 wpn_hand_merc_seva.prefab (2KB)
+          🎭 wpn_hand_merc_skat9.prefab (2KB)
+          🎭 wpn_hand_merc_suit.prefab (2KB)
+          🎭 wpn_hand_merc_sunrise_outfit.prefab (2KB)
+          🎭 wpn_hand_military_berill.prefab (2KB)
+          🎭 wpn_hand_military_exo.prefab (2KB)
+          🎭 wpn_hand_military_exolight.prefab (2KB)
+          🎭 wpn_hand_military_metro.prefab (2KB)
+          🎭 wpn_hand_military_novice.prefab (2KB)
+          🎭 wpn_hand_military_proto.prefab (2KB)
+          🎭 wpn_hand_military_skat9.prefab (2KB)
+          🎭 wpn_hand_monolith_exo.prefab (2KB)
+          🎭 wpn_hand_monolith_exolight.prefab (2KB)
+          🎭 wpn_hand_monolith_nbc_suit.prefab (2KB)
+          🎭 wpn_hand_monolith_nosorog.prefab (2KB)
+          🎭 wpn_hand_monolith_proto.prefab (2KB)
+          🎭 wpn_hand_monolith_seva.prefab (2KB)
+          🎭 wpn_hand_monolith_skat9.prefab (2KB)
+          🎭 wpn_hand_monolith_suit.prefab (2KB)
+          🎭 wpn_hand_monolith_trench.prefab (2KB)
+          🎭 wpn_hand_no_outfit.prefab (2KB)
+          🎭 wpn_hand_proto_exo_isg_outfit.prefab (2KB)
+          🎭 wpn_hand_renegayde_exo.prefab (2KB)
+          🎭 wpn_hand_renegayde_lcs.prefab (2KB)
+          🎭 wpn_hand_rhbz_green.prefab (2KB)
+          🎭 wpn_hand_trenchcoat_stalker.prefab (2KB)
+          🎭 wpn_hand_trench_brown.prefab (2KB)
+          🎭 wpn_hand_vineleaf_outfit.prefab (2KB)
+          🎭 wpn_hand_wastelander.prefab (2KB)
+    📁 Interactive/
+    📁 Items/
+      🎭 Door.prefab (3KB)
+      🎭 HealthPotion.prefab (3KB)
+      🎭 ItemSlotPrefab.prefab (12KB)
+    📁 Locations/
+      🎭 jupiter.prefab (18578KB)
+      🎭 jupiter_underground.prefab (1595KB)
+      🎭 k00_marsh.prefab (7871KB)
+      🎭 k01_darkscape.prefab (2118KB)
+      🎭 k02_trucks_cemetery.prefab (4981KB)
+      🎭 l01_escape.prefab (4666KB)
+      🎭 l02_garbage.prefab (4512KB)
+      🎭 l03u_agr_underground.prefab (1534KB)
+      🎭 l03_agroprom.prefab (3042KB)
+      🎭 l04u_labx18.prefab (1304KB)
+      🎭 l04_darkvalley.prefab (4683KB)
+      🎭 l06_rostok.prefab (9704KB)
+      🎭 l07_military.prefab (4244KB)
+      🎭 l08_yantar.prefab (3918KB)
+      🎭 l09_deadcity.prefab (3397KB)
+      🎭 l10u_bunker.prefab (1147KB)
+      🎭 l10_limansk.prefab (6216KB)
+      🎭 l10_radar.prefab (3426KB)
+      🎭 l10_red_forest.prefab (2174KB)
+      🎭 l11_hospital.prefab (557KB)
+      🎭 l11_pripyat.prefab (23995KB)
+      🎭 l12u_control_monolith.prefab (635KB)
+      🎭 l12u_sarcofag.prefab (1112KB)
+      🎭 l12_stancia.prefab (25186KB)
+      🎭 l13u_warlab.prefab (1188KB)
+      🎭 labx8.prefab (995KB)
+      🎭 y04_pole.prefab (2653KB)
+      🎭 zaton.prefab (7983KB)
+    📁 NPCs/
+    📁 Weapons/
+  📁 Scenes/
+    🎬 Location_jupiter.unity (10KB)
+    🎬 Location_jupiter_underground.unity (10KB)
+    🎬 Location_k00_marsh.unity (13KB)
+    🎬 Location_k01_darkscape.unity (10KB)
+    🎬 Location_k02_trucks_cemetery.unity (10KB)
+    🎬 Location_l01_escape.unity (14KB)
+    🎬 Location_l02_garbage.unity (10KB)
+    🎬 Location_l03u_agr_underground.unity (10KB)
+    🎬 Location_l03_agroprom.unity (10KB)
+    🎬 Location_l04u_labx18.unity (10KB)
+    🎬 Location_l04_darkvalley.unity (10KB)
+    🎬 Location_l06_rostok.unity (10KB)
+    🎬 Location_l07_military.unity (10KB)
+    🎬 Location_l08_yantar.unity (10KB)
+    🎬 Location_l09_deadcity.unity (10KB)
+    🎬 Location_l10u_bunker.unity (10KB)
+    🎬 Location_l10_limansk.unity (10KB)
+    🎬 Location_l10_radar.unity (10KB)
+    🎬 Location_l10_red_forest.unity (10KB)
+    🎬 Location_l11_hospital.unity (10KB)
+    🎬 Location_l11_pripyat.unity (10KB)
+    🎬 Location_l12u_control_monolith.unity (10KB)
+    🎬 Location_l12u_sarcofag.unity (10KB)
+    🎬 Location_l12_stancia.unity (10KB)
+    🎬 Location_l13u_warlab.unity (10KB)
+    🎬 Location_labx8.unity (10KB)
+    🎬 Location_y04_pole.unity (10KB)
+    🎬 Location_zaton.unity (10KB)
+    🎬 MASTER_LAYOUT.unity (147835KB)
+    🎬 Test.unity (18KB)
+  📁 Scripts/
+    📄 HUDManager.cs (4KB, сегодня)
+    📄 PlayerHealth.cs (3KB, сегодня)
+    📄 PlayerHUD.cs
+    📄 SimpleLocationLoader.cs (1KB)
+    📄 StalkerAimSystem.cs (3KB, сегодня)
+    📄 StalkerWeaponBase.cs (недавно)
+    📄 StalkerWeaponData.cs (недавно)
+    📄 SystemIntegrationTest.cs (2KB, недавно)
+    📄 WorldStreamer.cs (7KB)
+    📁 Core/
+      📁 InteractionSystem/
+        📄 IInteractable.cs
+        📄 PlayerInteraction.cs (1KB)
+      📁 InventorySystem/
+        📄 Inventory.cs (7KB, сегодня)
+      📁 ItemSystem/
+        📄 BaseItem.cs (1KB, сегодня)
+        📄 ConsumableItem.cs (сегодня)
+        📄 EffectType.cs (сегодня)
+        📄 ItemEffect.cs (сегодня)
+        📄 ItemManager.cs (1KB)
+        📄 Pickupable.cs
+        📄 PlayerSystems.cs (2KB, сегодня)
+        📄 WorldItem.cs (4KB, сегодня)
+      📁 Player/
+        📄 FPSContoller.cs (2KB)
+        📄 InteractionSystem.cs (4KB, сегодня)
+    📁 Gameplay/
+      📄 NPCs.cs
+      📄 Quests.cs
+      📁 Player/
+        📄 ArmsManager.cs (19KB, недавно)
+      📁 UI/
+        📄 InventorySlotUI.cs (5KB, сегодня)
+        📄 InventoryUI.cs (3KB, сегодня)
+  📁 TextMesh Pro/
+    📁 Documentation/
+    📁 Fonts/
+    📁 Resources/
+      💾 TMP Settings.asset (1KB)
+      📁 Fonts & Materials/
+        🎨 LiberationSans SDF - Drop Shadow.mat (2KB)
+        💾 LiberationSans SDF - Fallback.asset (570KB)
+        🎨 LiberationSans SDF - Outline.mat (2KB)
+        💾 LiberationSans SDF.asset (2203KB)
+      📁 Sprite Assets/
+        💾 EmojiOne.asset (13KB)
+      📁 Style Sheets/
+        💾 Default Style Sheet.asset (4KB)
+    📁 Shaders/
+    📁 Sprites/
+  📁 _Project/
+    📁 Characters/
+      📁 Player/
+        📁 Animations/
+          📁 Controllers/
+    📁 Configs/
+  📁 _WorkingPrototype/
+    🎬 10_l13u_warlab_(backup).unity (47226KB)
+    🎬 11_l13_generators_(backup).unity (54104KB)
+    🎬 12_l12u_sarcofag_(backup).unity (55165KB)
+    🎬 13_l12u_control_monolith_(backup).unity (55771KB)
+    🎬 14_l12_stancia_2_(backup).unity (64802KB)
+    🎬 15_l12_stancia_(backup).unity (69296KB)
+    🎬 16_l11_pripyat_(backup).unity (76854KB)
+    🎬 17_l11_hospital_(backup).unity (77387KB)
+    🎬 18_l10u_bunker_(backup).unity (78479KB)
+    🎬 19_l10_red_forest_(backup).unity (80557KB)
+    🎬 1_l01_escape_(backup).unity (4460KB)
+    🎬 20_l10_radar_(backup).unity (83831KB)
+    🎬 21_l10_limansk_(backup).unity (89771KB)
+    🎬 22_l09_deadcity_(backup).unity (93007KB)
+    🎬 23_l08_yantar_(backup).unity (96751KB)
+    🎬 24_l07_military_(backup).unity (100806KB)
+    🎬 25_l06_rostok_(backup).unity (106495KB)
+    🎬 26_l05_bar_(backup).unity (110134KB)
+    🎬 27_l04u_labx18_(backup).unity (111396KB)
+    🎬 28_l03u_agr_underground_(backup).unity (117338KB)
+    🎬 29_k02_trucks_cemetery_(backup).unity (121597KB)
+    🎬 2_k00_marsh_(backup).unity (10837KB)
+    🎬 30_jupiter_underground_(backup).unity (122888KB)
+    🎬 31_jupiter_(backup).unity (138737KB)
+    🎬 3_l03_agroprom_(backup).unity (13731KB)
+    🎬 4_k01_darkscape_(backup).unity (15444KB)
+    🎬 5_l02_garbage_(backup).unity (19733KB)
+    🎬 6_zaton_(backup).unity (27339KB)
+    🎬 7_y04_pole_(backup).unity (29866KB)
+    🎬 8_pripyat_(backup).unity (45141KB)
+    🎬 9_labx8_(backup).unity (46093KB)
+    🎬 Development_Sandbox.unity (66KB, сегодня)
+  📄 SimpleFPSController.cs (1KB)
+
+📊 СТАТИСТИКА ПРОЕКТА:
+• Скрипты C#: 32 файлов
+• Префабы: 155 файлов
+• Сцены: 62 файлов
+• Всего файлов: 259
+• Последнее изменение: 30.11.2025 19:17
+
+🔍 АНАЛИЗ ИЗМЕНЕНИЙ:
+✅ Найдены системы: PlayerHealth, StalkerAimSystem, Inventory, ItemManager, HUDManager, PlayerInteraction
+
+🏗️ АРХИТЕКТУРНЫЕ СВЯЗИ:
+✅ PlayerSystems объект на сцене
+✅ UI Canvas присутствует

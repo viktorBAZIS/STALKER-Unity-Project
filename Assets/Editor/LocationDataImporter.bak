@@ -1,0 +1,139 @@
+using UnityEngine;
+using UnityEditor;
+using System.IO;
+using System.Collections.Generic;
+
+public class LocationDataImporter : EditorWindow
+{
+    [MenuItem("STALKER Tools/Import Locations from CSV")]
+    public static void ShowWindow()
+    {
+        GetWindow<LocationDataImporter>("Location Importer");
+    }
+
+    private string csvPath = "";
+    private SeamlessWorldStreamer targetStreamer;
+
+    void OnGUI()
+    {
+        GUILayout.Label("CSV Location Data Importer", EditorStyles.boldLabel);
+
+        // Поле для выбора World Streamer
+        targetStreamer = (SeamlessWorldStreamer)EditorGUILayout.ObjectField(
+            "World Streamer",
+            targetStreamer,
+            typeof(SeamlessWorldStreamer),
+            true
+        );
+
+        // Поле для пути к CSV
+        EditorGUILayout.LabelField("CSV File Path:", csvPath);
+
+        if (GUILayout.Button("Select CSV File"))
+        {
+            csvPath = EditorUtility.OpenFilePanel("Select CSV File", "", "csv");
+        }
+
+        GUI.enabled = !string.IsNullOrEmpty(csvPath) && targetStreamer != null;
+
+        if (GUILayout.Button("Import Locations"))
+        {
+            ImportLocationsFromCSV();
+        }
+
+        GUI.enabled = true;
+    }
+
+    void ImportLocationsFromCSV()
+    {
+        if (!File.Exists(csvPath))
+        {
+            Debug.LogError("CSV file not found: " + csvPath);
+            return;
+        }
+
+        if (targetStreamer == null)
+        {
+            Debug.LogError("World Streamer not assigned!");
+            return;
+        }
+
+        try
+        {
+            string[] lines = File.ReadAllLines(csvPath);
+            var locations = new List<SeamlessWorldStreamer.LocationData>();
+
+            int importedCount = 0;
+
+            // Пропускаем заголовок (если есть)
+            int startLine = lines[0].ToLower().Contains("name") ? 1 : 0;
+
+            for (int i = startLine; i < lines.Length; i++)
+            {
+                string line = lines[i];
+                if (string.IsNullOrEmpty(line)) continue;
+
+                string[] values = ParseCSVLine(line);
+
+                if (values.Length >= 4)
+                {
+                    var location = new SeamlessWorldStreamer.LocationData();
+                    location.locationName = values[0].Trim();
+
+                    // Парсим координаты
+                    if (float.TryParse(values[1], out float x) &&
+                        float.TryParse(values[2], out float y) &&
+                        float.TryParse(values[3], out float z))
+                    {
+                        location.worldPosition = new Vector3(x, y, z);
+                        locations.Add(location);
+                        importedCount++;
+
+                        Debug.Log($"📍 Импортировано: {location.locationName} at {location.worldPosition}");
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"⚠️ Неверные координаты в строке {i + 1}: {line}");
+                    }
+                }
+            }
+
+            // Обновляем World Streamer
+            targetStreamer.locations = locations;
+            EditorUtility.SetDirty(targetStreamer);
+
+            Debug.Log($"✅ УСПЕШНО! Импортировано {importedCount} локаций");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"❌ Ошибка импорта: {e.Message}");
+        }
+    }
+
+    string[] ParseCSVLine(string line)
+    {
+        var values = new List<string>();
+        bool inQuotes = false;
+        string currentValue = "";
+
+        foreach (char c in line)
+        {
+            if (c == '"')
+            {
+                inQuotes = !inQuotes;
+            }
+            else if (c == ',' && !inQuotes)
+            {
+                values.Add(currentValue);
+                currentValue = "";
+            }
+            else
+            {
+                currentValue += c;
+            }
+        }
+
+        values.Add(currentValue);
+        return values.ToArray();
+    }
+}

@@ -73,3 +73,9 @@ ProjectStructure.txt
 
 # Файлы анализа (если есть)
 Analysis_Report_*.md
+
+# ГИГАНТСКИЕ ФАЙЛЫ (> 50 МБ)
+Assets/_WorkingPrototype/**/*.unity
+Assets/Scenes/MASTER_LAYOUT.unity
+Assets/Imported/Models/Locations/**/*.blend*
+Assets/Imported/Models/Locations/**/*.dds
