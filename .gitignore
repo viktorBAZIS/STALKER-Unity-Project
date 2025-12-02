@@ -84,4 +84,18 @@ Analysis_Report_*.md
 # ========== LFS УПРАВЛЕНИЕ ==========
 # НЕ добавлять сюда *.unity, *.fbx, *.png - они управляются через LFS в .gitattributes
 # Если хотите исключить конкретные файлы из LFS, делайте это через .gitattributes:
-# !*.huge.unity в .gitattributes
+# !*.huge.unity в .gitattributes 
+"# Backup scenes - exclude from repository" 
+Assets/_WorkingPrototype/*_backup.unity 
+Assets/_WorkingPrototype/Development_Sandbox.unity 
+Assets/Scenes/MASTER_LAYOUT.unity 
+"*.dds" 
+"*.blend" 
+"*.blend1" 
+ 
+"# HEAVY/UNNEEDED FILES" 
+Assets/_WorkingPrototype/*_backup.unity 
+Assets/Scenes/MASTER_LAYOUT.unity 
+"*.dds" 
+"*.blend" 
+"*.blend1" 
