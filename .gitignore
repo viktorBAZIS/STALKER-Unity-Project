@@ -65,17 +65,23 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# ========== Р’РђРЁР Р”РћРџРћР›РќР•РќРРЇ ==========
-# Р’Р°С€Рё СЌРєСЃРїРѕСЂС‚С‹ СЃС‚СЂСѓРєС‚СѓСЂ
+# ========== ВАШИ ДОПОЛНЕНИЯ ==========
+# БЭКАПЫ (не нужны в репозитории - хранить локально)
+*_backup.*
+*.backup
+*.tmp
+*.temp
+*.bak
+
+# Временные файлы блендера (хранить отдельно если нужно)
+# *.blend1  # Раскомментировать если НЕ хотите в Git
+
+# Ваши экспорты структур
 /Export/
 *.export.txt
-ProjectStructure.txt
-
-# Р¤Р°Р№Р»С‹ Р°РЅР°Р»РёР·Р° (РµСЃР»Рё РµСЃС‚СЊ)
 Analysis_Report_*.md
 
-# Р“РР“РђРќРўРЎРљРР• Р¤РђР™Р›Р« (> 50 РњР‘)
-Assets/_WorkingPrototype/**/*.unity
-Assets/Scenes/MASTER_LAYOUT.unity
-Assets/Imported/Models/Locations/**/*.blend*
-Assets/Imported/Models/Locations/**/*.dds
+# ========== LFS УПРАВЛЕНИЕ ==========
+# НЕ добавлять сюда *.unity, *.fbx, *.png - они управляются через LFS в .gitattributes
+# Если хотите исключить конкретные файлы из LFS, делайте это через .gitattributes:
+# !*.huge.unity в .gitattributes
