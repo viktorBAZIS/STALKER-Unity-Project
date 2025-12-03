@@ -1,5 +1,5 @@
 === STALKER UNITY PROJECT - AUTO EXPORT ===
-Generated: 2025-12-03 22:03:37
+Generated: 2025-12-03 22:57:28
 Unity Version: 2022.3.62f3
 Platform: WindowsEditor
 ===========================================
@@ -56,7 +56,6 @@ Platform: WindowsEditor
       📄 Item_Medkit.asset
       📁 ItemData/
         💻 ItemData.cs
-        💻 ItemInteraction.cs
         💻 ItemTypeData.cs
     📁 Quests/
   📁 Editor/
@@ -513,7 +512,6 @@ Platform: WindowsEditor
     🎮 MASTER_LAYOUT.unity
     🎮 Test.unity
   📁 Scripts/
-    💻 GameManager.cs
     💻 HUDManager.cs
     💻 PlayerHealth.cs
     💻 PlayerHUD.cs
@@ -525,11 +523,11 @@ Platform: WindowsEditor
     💻 TestSimpleItem.cs
     💻 WorldStreamer.cs
     📁 Core/
+      💻 GameManager.cs
+      💻 GameServices.cs
+      💻 IInteractable.cs
       📁 InteractionSystem/
-        💻 IInteractable.cs
         💻 PlayerInteraction.cs
-      📁 InventorySystem/
-        💻 Inventory.cs
       📁 ItemSystem/
         💻 BaseItem.cs
         💻 ConsumableItem.cs
@@ -537,7 +535,6 @@ Platform: WindowsEditor
         💻 ItemEffect.cs
         💻 ItemManager.cs
         💻 Pickupable.cs
-        💻 PlayerSystems.cs
         💻 WorldItem.cs
       📁 Player/
         💻 FPSContoller.cs
@@ -545,11 +542,16 @@ Platform: WindowsEditor
     📁 Gameplay/
       💻 NPCs.cs
       💻 Quests.cs
+      📁 Items/
+        💻 ItemInteraction.cs
       📁 Player/
         💻 ArmsManager.cs
       📁 UI/
         💻 InventorySlotUI.cs
         💻 InventoryUI.cs
+    📁 Systems/
+      💻 Inventory.cs
+      💻 PlayerSystems.cs
   📁 TextMesh Pro/
     📁 Documentation/
       📄 TextMesh Pro User Guide 2016.pdf
@@ -622,13 +624,13 @@ Platform: WindowsEditor
   📄 packages-lock.json
 
 === STATISTICS ===
-Total files in Assets: 474
+Total files in Assets: 475
 
 File types:
   .fbx: 156
   .prefab: 155
   .unity: 62
-  .cs: 34
+  .cs: 35
   .dds: 26
   .shader: 13
   .asset: 8
@@ -636,4 +638,4 @@ File types:
   .cginc: 4
   .csv: 2
 
-Scripts: 34 C# files, 13 shaders
+Scripts: 35 C# files, 13 shaders
