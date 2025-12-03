@@ -1,5 +1,5 @@
 === STALKER UNITY PROJECT - AUTO EXPORT ===
-Generated: 2025-12-04 00:15:04
+Generated: 2025-12-04 01:51:47
 Unity Version: 2022.3.62f3
 Platform: WindowsEditor
 ===========================================
@@ -512,6 +512,8 @@ Platform: WindowsEditor
     🎮 MASTER_LAYOUT.unity
     🎮 Test.unity
   📁 Scripts/
+    💻 DevJournalUpdater.cs
+    💻 EnhancedDevJournal.cs
     💻 HUDManager.cs
     💻 PlayerHealth.cs
     💻 PlayerHUD.cs
@@ -520,7 +522,6 @@ Platform: WindowsEditor
     💻 StalkerWeaponBase.cs
     💻 StalkerWeaponData.cs
     💻 SystemIntegrationTest.cs
-    💻 TestSimpleItem.cs
     💻 WorldStreamer.cs
     📁 Core/
       💻 GameManager.cs
@@ -625,13 +626,13 @@ Platform: WindowsEditor
   📄 packages-lock.json
 
 === STATISTICS ===
-Total files in Assets: 476
+Total files in Assets: 477
 
 File types:
   .fbx: 156
   .prefab: 155
   .unity: 62
-  .cs: 36
+  .cs: 37
   .dds: 26
   .shader: 13
   .asset: 8
@@ -639,4 +640,4 @@ File types:
   .cginc: 4
   .csv: 2
 
-Scripts: 36 C# files, 13 shaders
+Scripts: 37 C# files, 13 shaders
