@@ -1,5 +1,5 @@
 === STALKER UNITY PROJECT - AUTO EXPORT ===
-Generated: 2025-12-03 23:33:44
+Generated: 2025-12-04 00:15:04
 Unity Version: 2022.3.62f3
 Platform: WindowsEditor
 ===========================================
